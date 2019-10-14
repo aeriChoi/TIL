@@ -27,6 +27,10 @@
 
 * [You Don't Know JS](book/you-dont-know-js.md)
 
+## STUDY
+
+* [멋직 파이썬 스터디](study/lion-python.md)
+
 ## ETC
 
 * [CI/CD](etc/ci-cd.md)
