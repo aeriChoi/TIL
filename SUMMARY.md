@@ -12,7 +12,8 @@
 * [HTML](dev/html.md)
 * [CSS](dev/css.md)
 * [SASS/SCSS](dev/sass-scss.md)
-* [자료구조와 알고리즘](dev/algorithm.md)
+* [자료구조와 알고리즘](dev/algorithm/README.md)
+  * [자료구조와 알고리즘이란?](dev/algorithm/algorithm01.md)
 
 ## WEB
 
