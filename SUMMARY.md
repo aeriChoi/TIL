@@ -4,7 +4,8 @@
 
 ## DEV
 
-* [JavaScript](dev/javascript.md)
+* [JavaScript](dev/javascript/README.md)
+  * [01.What is JavaScript?](dev/javascript/01.what-is-javascript.md)
 * [React.js](dev/react.js.md)
 * [Vue.js](dev/vue.js.md)
 * [Webpack](dev/webpack.md)
