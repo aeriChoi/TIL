@@ -5,7 +5,8 @@
 ## DEV
 
 * [JavaScript](dev/javascript/README.md)
-  * [01.What is JavaScript?](dev/javascript/01.what-is-javascript.md)
+  * [01. What is JavaScript?](dev/javascript/01.what-is-javascript.md)
+  * [02. 33 Concepts Of JavaScript](dev/javascript/02.33-concepts-of-javascript.md)
 * [React.js](dev/react.js.md)
 * [Vue.js](dev/vue.js.md)
 * [Webpack](dev/webpack.md)
