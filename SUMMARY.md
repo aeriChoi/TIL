@@ -6,7 +6,9 @@
 
 * [JavaScript](dev/javascript/README.md)
   * [01. What is JavaScript?](dev/javascript/01.what-is-javascript.md)
-  * [02. 33 Concepts Of JavaScript](dev/javascript/02.33-concepts-of-javascript.md)
+* [33 Concepts Of JavaScript](dev/33-concepts-of-javascript/README.md)
+  * [01. Call Stack](dev/33-concepts-of-javascript/01-call-stack.md)
+  * [02. Primitive Types](dev/33-concepts-of-javascript/02-primitive-types.md)
 * [React.js](dev/react.js.md)
 * [Vue.js](dev/vue.js.md)
 * [Webpack](dev/webpack.md)
