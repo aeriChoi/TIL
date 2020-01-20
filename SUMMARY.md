@@ -16,11 +16,15 @@
 * [HTML](dev/html.md)
 * [CSS](dev/css.md)
 * [SASS/SCSS](dev/sass-scss.md)
-* [자료구조와 알고리즘](dev/algorithm/README.md)
+* [Algorithm](dev/algorithm/README.md)
   * [자료구조와 알고리즘이란?](dev/algorithm/algorithm01.md)
 
 ## WEB
 
+* [브라우저 동작원리](web/browser-workflow.md)
+* [DOM](web/dom.md)
+* [Virtual DOM](web/virtual-dom.md)
+* [REST API](web/rest-api.md)
 * [HTTP](web/http.md)
 * [AWS](web/aws.md)
 
@@ -37,6 +41,4 @@
 * [멋직 파이썬 스터디](study/lion-python.md)
 
 ## ETC
-
-* [CI/CD](etc/ci-cd.md)
 
