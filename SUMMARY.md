@@ -32,6 +32,10 @@
 
 * [Untitled](toy-project/untitled.md)
 
+## 이달의 목표 및 회고 <a id="plan-of-the-month"></a>
+
+* [이달의 목표 및 회고](plan-of-the-month/undefined.md)
+
 ## BOOK
 
 * [You Don't Know JS](book/you-dont-know-js.md)
@@ -39,8 +43,4 @@
 ## STUDY
 
 ## ETC
-
-## 이달의 목표 및 회고 <a id="plan-of-the-month"></a>
-
-* [이달의 목표 및 회고](plan-of-the-month/undefined.md)
 
