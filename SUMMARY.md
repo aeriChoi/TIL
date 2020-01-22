@@ -34,7 +34,8 @@
 
 ## 이달의 목표 및 회고 <a id="plan-of-the-month"></a>
 
-* [이달의 목표 및 회고](plan-of-the-month/undefined.md)
+* [이달의 목표 및 회고](plan-of-the-month/plan-of-the-month-info/README.md)
+  * [2020.02](plan-of-the-month/plan-of-the-month-info/2020.02.md)
 
 ## BOOK
 
