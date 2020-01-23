@@ -26,6 +26,8 @@
 * [Virtual DOM](web/virtual-dom.md)
 * [REST API](web/rest-api.md)
 * [HTTP](web/http.md)
+* [DB](web/db/README.md)
+  * [SQL 데이터베이스 만들기](web/db/sql.md)
 * [AWS](web/aws.md)
 
 ## Toy Project
