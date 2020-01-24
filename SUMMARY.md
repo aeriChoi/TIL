@@ -28,6 +28,7 @@
 * [HTTP](web/http.md)
 * [DB](web/db/README.md)
   * [DATABASE란?](web/db/database.md)
+  * [RDBMS](web/db/rdbms.md)
   * [SQL](web/db/sql.md)
 * [AWS](web/aws.md)
 
