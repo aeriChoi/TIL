@@ -5,8 +5,8 @@
 ## DEV
 
 * [JavaScript](dev/javascript/README.md)
-  * [01. Variable\(변수\)](dev/javascript/01.-variable.md)
-  * [02. primitive types VS reference types](dev/javascript/01.what-is-javascript.md)
+  * [Variable\(변수\)](dev/javascript/01.-variable.md)
+  * [primitive types VS reference types](dev/javascript/01.what-is-javascript.md)
 * [33 Concepts Of JavaScript](dev/33-concepts-of-javascript/README.md)
   * [01. Call Stack](dev/33-concepts-of-javascript/01-call-stack.md)
   * [02. Primitive Types](dev/33-concepts-of-javascript/02-primitive-types.md)
