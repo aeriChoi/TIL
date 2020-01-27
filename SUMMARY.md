@@ -5,7 +5,7 @@
 ## DEV
 
 * [JavaScript](dev/javascript/README.md)
-  * [01. What is JavaScript?](dev/javascript/01.what-is-javascript.md)
+  * [01. primitive types vs reference types](dev/javascript/01.what-is-javascript.md)
 * [33 Concepts Of JavaScript](dev/33-concepts-of-javascript/README.md)
   * [01. Call Stack](dev/33-concepts-of-javascript/01-call-stack.md)
   * [02. Primitive Types](dev/33-concepts-of-javascript/02-primitive-types.md)
