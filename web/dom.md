@@ -11,3 +11,9 @@
 * DOM 은 웹 페이지의 객체 지향 표현
 * 자바스크립트와 같은 스크립팅 언어를 이용해 DOM 을 수정할 수 있다.
 
+### 참조
+
+* [DOM 소개 - MDN](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/%EC%86%8C%EA%B0%9C)
+* [DOM이란 무엇인가? - velog](https://velog.io/@surim014/DOM%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80) \([@surim014](https://velog.io/@surim014)\)
+* [DOM이란 무엇인가? - velog](https://velog.io/@godori/DOM%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80) \([@godori](https://velog.io/@godori)\)
+
