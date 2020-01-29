@@ -2,7 +2,29 @@
 
 ## 브라우저 동작원리\(Browser Workflow\)
 
+### 브라우저 핵심 기능
 
+* 사용자가 참조하고자 하는 웹페이지를 서버에 요청\(Request\)하고 서버의 응답\(Response\)을 받아 브라우저에 표시하는 것
+* URI를 입력 후 브라우저는 서버로부터 HTML, CSS, Javascript, 이미지 파일 등을 응답 받는다.
+* HTML, CSS 파일은 렌더링 엔진의 HTML 파서와 CSS 파서에 의해 파싱\(Parsing\)되어 DOM, CSSOM 트리로 변환되고 렌더 트리로 결합된다.
+* 생성된 렌더 트리를 기반으로 브라우저는 웹페이지를 표시한다.
+
+![from. poiemaweb](../.gitbook/assets/flow01.png)
+
+### Critical rendering path\(크리티컬 렌더링 패스\)
+
+* 브라우저가 HTML, CSS, JavaScript를 화면에 실제 픽셀로 변환하는 단계의 순
+
+![from. Critical Rendering Path Walkthrough - Website Performance Optimization](../.gitbook/assets/flow02.png)
+
+1. HTML파일이 렌더링 엔진의 HTML파서에 의해 파싱\(Parsing\)되어 DOM 생성
+   * HTML 태그들 HTML 토큰이 되어 node 객체로 변환되고 이는 트리 형태로 되어 있다.
+2. CSS파일이 렌더링 엔진의 CSS 파서에 의해 파싱\(Parsing\)되어 CSSOM 생성
+3. DOM과 CSSOM을 묶어 Render Tree를 생
+4. Layout이 생성되며 객체의 정확한 위치 및 크기를 계산한다.
+5. 마지막 단계는 최종 렌더링 트리에서 수행되는 페인트이며, 픽셀을 화면에 렌더링한다.
+
+![from. Google Developers](../.gitbook/assets/flow03.png)
 
 ### 참조
 
