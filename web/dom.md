@@ -6,7 +6,7 @@ DOM은 문서의 구조화된 표현을 제공하 프로그래밍 언어가 DOM 
 
 * 문서 객체 모델
 * HTML, XML 문서의 프로그래밍 interface
-* 구조화된 nodes와 property 와 method 를 갖고 있는 objects로 문서를 표현한 
+* 구조화된 nodes와 property 와 method 를 갖고 있는 objects로 문서를 표현한 것 
 * 웹 페이지를 프로그래밍 언어가 사용 수 있게 연결시켜주는 역할을 담당한다.
 
 ### 참조
