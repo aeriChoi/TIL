@@ -9,6 +9,8 @@ DOM은 문서의 구조화된 표현을 제공하 프로그래밍 언어가 DOM 
 * 구조화된 nodes와 property 와 method 를 갖고 있는 objects로 문서를 표현한 것 
 * 웹 페이지를 프로그래밍 언어가 사용 수 있게 연결시켜주는 역할을 담당한다.
 
+### DOM인것과 아닌것 
+
 ### 참조
 
 * [DOM 소개 - MDN](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/%EC%86%8C%EA%B0%9C)
