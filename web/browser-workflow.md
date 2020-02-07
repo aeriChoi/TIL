@@ -22,7 +22,7 @@
 1. HTML파일이 렌더링 엔진의 HTML파서에 의해 파싱\(Parsing\)되어 DOM 생성
    * HTML 태그들 HTML 토큰이 되어 node 객체로 변환되고 이는 트리 형태로 되어 있다.
 2. CSS파일이 렌더링 엔진의 CSS 파서에 의해 파싱\(Parsing\)되어 CSSOM 생성
-3. JavaScript엔진이 JavaScript파일을 로드하고 파싱하여 실행 \(DOM생성이 중지됨\) 
+3. JavaScript엔진이 JavaScript파일을 로드하고 파싱하여 실행 _\(DOM생성이 중지됨\)_ 
 4. DOM과 CSSOM을 묶어 Render Tree를 생성 
 5. Layout이 생성되며 객체의 정확한 위치 및 크기를 계산한다.
 6. 마지막 단계는 최종 렌더링 트리에서 수행되는 페인트이며, 픽셀을 화면에 렌더링한다.
