@@ -2,7 +2,9 @@
 
 ![](../../.gitbook/assets/js.png)
 
-### Undefined
+### Undefined vs Null ?
+
+* 값이 없는 vs 선언되지 않음
 
 
 
