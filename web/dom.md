@@ -25,7 +25,45 @@ DOM은 문서의 구조화된 표현을 제공하여 프로그래밍 언어가 D
 
 브라우저에 보이는 것은 렌더 트리로 DOM과 CSSOM의 조합이며 시각적으로 보이지 않는 요소들은 제외되기 때문에 DOM과는 다르다.
 
-#### 3. DOM은 개발도구에서 보이는 것이다?
+```javascript
+<html>
+<head>
+  <title>Understanding the Critical Rendering Path</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <h1>Understanding the Critical Rendering Path</h1>
+  </header>
+  <main>
+      <h2>Introduction</h2>
+      <p>Lorem ipsum dolor sit amet</p>
+  </main>
+  <footer>
+      <small>Copyright 2017</small>
+  </footer>
+</body>
+</html>
+
+```
+
+![from. Understanding the Critical Rendering Path - bitsofco.de ](../.gitbook/assets/dom.png)
+
+```css
+body { font-size: 18px; }
+
+header { color: plum; }
+h1 { font-size: 28px; }
+
+main { color: firebrick; }
+h2 { font-size: 20px; }
+
+footer { display: none; }
+```
+
+![from. Understanding the Critical Rendering Path - bitsofco.de](../.gitbook/assets/cssom.png)
+
+#### 3. DOM은 개발자 도구에서 보이는 것이다?
 
 개발자 도구의 요소 검사기는  DOM과 유사하나 완전히 일치하는 것은 아니다. 개발자 도구의 요소 검사기는 DOM 단순화시켜 표현한 것이며 DOM의 일부가 아닌 CSS 가상 요소를 포함하기에 완전히 DOM이라고 할 수는 없다.
 
@@ -38,4 +76,5 @@ DOM은 문서의 구조화된 표현을 제공하여 프로그래밍 언어가 D
 * [DOM 소개 - MDN](https://developer.mozilla.org/ko/docs/Web/API/Document_Object_Model/%EC%86%8C%EA%B0%9C)
 * [DOM이란 무엇인가? - velog](https://velog.io/@surim014/DOM%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80) \([@surim014](https://velog.io/@surim014)\)
 * [DOM이란 무엇인가? - velog](https://velog.io/@godori/DOM%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80) \([@godori](https://velog.io/@godori)\)
+* [Understanding the Critical Rendering Path - bitsofco](https://bitsofco.de/understanding-the-critical-rendering-path/)
 
