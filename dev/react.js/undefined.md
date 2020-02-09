@@ -1,6 +1,8 @@
 # 개발 환경 설정하기
 
-![](../../.gitbook/assets/react.jpg)
+![sdsd](../../.gitbook/assets/react.jpg)
+
+리액트를 학습하기 앞서 먼저 개발 환경을 셋팅하는 법을 알아보겠다.
 
 ### 01. Version: Windows
 
