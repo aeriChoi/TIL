@@ -14,6 +14,8 @@
   * [02. Primitive Types](dev/33-concepts-of-javascript/02-primitive-types.md)
 * [React.js](dev/react.js/README.md)
   * [개발 환경 설정하기](dev/react.js/setting.md)
+  * [JSX 문법](dev/react.js/jsx.md)
+  * [LifeCycle API](dev/react.js/lifecycle-api.md)
 * [Vue.js](dev/vue.js.md)
 * [Algorithm](dev/algorithm/README.md)
   * [자료구조와 알고리즘이란?](dev/algorithm/algorithm01.md)
