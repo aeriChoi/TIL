@@ -39,5 +39,6 @@ git push origin master
 * [자습서: React 시작하기](https://ko.reactjs.org/)
 * [리액트를 다루는 기술\(개정\) - 길벗](https://m.yes24.com/Goods/Detail/62597469) 
 * [누구든지 하는 리액트: 초심자를 위한 react 핵심 강좌 - 인프런 ](https://www.inflearn.com/course/react-velopert/dashboard)
+* [누구든지 하는 리액트](https://react-anyone.vlpt.us/)
 * [벨로퍼트와 함께하는 모던 리액트](https://react.vlpt.us/)
 
