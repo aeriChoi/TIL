@@ -13,7 +13,7 @@
   * [01. Call Stack](dev/33-concepts-of-javascript/01-call-stack.md)
   * [02. Primitive Types](dev/33-concepts-of-javascript/02-primitive-types.md)
 * [React.js](dev/react.js/README.md)
-  * [개발 환경 설정하기](dev/react.js/undefined.md)
+  * [개발 환경 설정하기](dev/react.js/setting.md)
 * [Vue.js](dev/vue.js.md)
 * [Algorithm](dev/algorithm/README.md)
   * [자료구조와 알고리즘이란?](dev/algorithm/algorithm01.md)
