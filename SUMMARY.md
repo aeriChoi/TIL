@@ -4,6 +4,8 @@
 
 ## DEV
 
+* [Design Pattern](dev/design-pattern/README.md)
+  * [MVVM](dev/design-pattern/mvvm.md)
 * [JavaScript](dev/javascript/README.md)
   * [Variable\(변수와 상수\)](dev/javascript/01.-variable.md)
   * [Primitive types vs Reference types](dev/javascript/01.what-is-javascript.md)
