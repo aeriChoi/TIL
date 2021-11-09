@@ -2,7 +2,15 @@
 
 * [Today I Learned](README.md)
 
-## DEV
+## 🌏 WEB
+
+* [브라우저 동작원리](web/browser-workflow.md)
+* [DOM](web/dom.md)
+* [Virtual DOM](web/virtual-dom.md)
+* [REST API](web/rest-api.md)
+* [HTTP](web/http.md)
+
+## 🖥 DEV
 
 * [JavaScript](dev/javascript/README.md)
   * [Variable(변수와 상수)](dev/javascript/01.-variable.md)
@@ -15,16 +23,6 @@
   * [개발 환경 설정하기](dev/react.js/setting.md)
   * [JSX 문법](dev/react.js/jsx.md)
   * [LifeCycle API](dev/react.js/lifecycle-api.md)
-
-## WEB
-
-* [브라우저 동작원리](web/browser-workflow.md)
-* [DOM](web/dom.md)
-* [Virtual DOM](web/virtual-dom.md)
-* [REST API](web/rest-api.md)
-* [HTTP](web/http.md)
-
-## ETC
 
 ## 💻 IntelliJ
 
