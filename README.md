@@ -2,5 +2,4 @@
 
 
 
-![](.gitbook/assets/main.png)
-
+![](<.gitbook/assets/main (1).png>)
