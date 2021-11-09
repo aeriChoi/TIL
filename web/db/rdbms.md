@@ -1,4 +1,0 @@
-# RDBMS
-
-## RDBMS
-
