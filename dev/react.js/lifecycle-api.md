@@ -1,4 +1,0 @@
-# LifeCycle API
-
-### LifeCycle API 
-
