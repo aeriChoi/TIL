@@ -1,6 +1,6 @@
 # CRA에 tsconfig.paths.json 추가하기
 
-**`tsconfig.paths.json`** 추가하기
+**root 디렉토리에 `tsconfig.paths.json`** 파일을 추가한다.
 
 ```
 {
