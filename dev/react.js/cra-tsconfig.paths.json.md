@@ -98,3 +98,5 @@ module.exports = {
 "start": "craco start",
 "build": "craco build"
 ```
+
+tsconfig.json 파일에  다음 항목 추가하기  &#x20;
