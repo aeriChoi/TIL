@@ -22,8 +22,9 @@
     * [fetch/promise/async/await](dev/javascript/undefined/fetch-promise-async-await.md)
   * [CORS](dev/javascript/cors.md)
 * [React.js](dev/react.js/README.md)
-  * [Create-React-App Typescript 프로젝트 생성 및 기본세팅.](dev/react.js/create-react-app-typescript-..md)
   * [개발 환경 설정하기](dev/react.js/setting.md)
+  * [Create-React-App Typescript 프로젝트 생성 및 기본세팅.](dev/react.js/create-react-app-typescript-..md)
+  * [CRA tsconfig.paths.json](dev/react.js/cra-tsconfig.paths.json.md)
 
 ## 💻 IntelliJ
 
