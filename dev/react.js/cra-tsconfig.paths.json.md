@@ -70,7 +70,7 @@ npm install -D craco-alias
 
 # Using yarn
 yarn add -D @craco/craco
-yarn add -D prettier craco-alias
+yarn add -D craco-alias
 ```
 
 **root 디렉토리에 craco.config.js 파일을 추가한다.**&#x20;
