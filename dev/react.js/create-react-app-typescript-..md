@@ -42,6 +42,7 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
+    node: true,
   },
   globals: {
     Atomics: 'readonly',
@@ -57,14 +58,13 @@ module.exports = {
   plugins: ['react', '@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
+    ecmaFeatures: { jsx: true },
     ecmaVersion: 2018,
     sourceType: 'module',
     project: './tsconfig.json',
   },
   rules: {
+    indent: [2, 2, { SwitchCase: 1 }],
     'linebreak-style': 'off',
     'prettier/prettier': [
       'error',
@@ -73,7 +73,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    'react-hooks/exhaustive-deps': 'warn',
+    'react-hooks/exhaustive-deps': 'error',
     'no-alert': 'off',
     'no-console': 'off',
     'no-shadow': 'off',
@@ -100,22 +100,6 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
     'jsx-a11y/no-noninteractive-element-interactions': 0,
-    'jsx-a11y/label-has-associated-control': [
-      'error',
-      {
-        required: {
-          some: ['nesting', 'id'],
-        },
-      },
-    ],
-    'jsx-a11y/label-has-for': [
-      'error',
-      {
-        required: {
-          some: ['nesting', 'id'],
-        },
-      },
-    ],
   },
 };
 
