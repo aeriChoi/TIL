@@ -155,13 +155,13 @@ prettier와 ESLint 들여쓰기 설정이 서로 중복 될 수 있.\
 }
 ```
 
-tsconfig.json 추가
+**`tsconfig.json`** 추가
 
 ```
-// Some code"include": [
+include": [
     "src",
-    ".eslintrc.js"
-  ]
+    ".eslintrc.js" // 추가하기
+ ]
 ```
 
 #### **참조**
