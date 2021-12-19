@@ -23,16 +23,9 @@ yarn create-react-app [프로젝트명] --template typescript2.
 ```
 # Using npm
 npm install -D eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
-npm install eslint-config-airbnb-typescript --save-dev
-
-npm install -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import
-
 
 # Using yarn
 yarn add --dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser
-yarn add --dev eslint-config-airbnb-typescript
-
-yarn add --dev eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import
 
 
 ```
@@ -65,6 +58,24 @@ package.json
 ```
 
 
+
+### React eslint Airbnb 설정 <a href="#2-react-eslint-airbnb" id="2-react-eslint-airbnb"></a>
+
+```
+npx install-peerdeps --dev eslint-config-airbnb
+```
+
+```
+.eslintrc
+
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": ["airbnb", "airbnb/hooks", "plugin:@typescript-eslint/recommended"]
+}
+```
+
+****
 
 ### **Prettier 설정**
 
@@ -109,6 +120,20 @@ package.json
 "scripts": {
     "prettier": "prettier --write --config ./.prettierrc './src/**/*.{ts,tsx}'",
   },
+```
+
+```
+"parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "prettier",
+    "airbnb",
+    "airbnb/hooks",
+    "prettier/react",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ]
 ```
 
 #### ****
