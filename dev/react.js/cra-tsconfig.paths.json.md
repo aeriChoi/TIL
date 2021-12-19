@@ -60,7 +60,7 @@
 }
 ```
 
-### Craco 설치하기
+**Craco 설치하기**
 
 ```
 // Some code
@@ -71,4 +71,30 @@ npm install -D craco-alias
 # Using yarn
 yarn add -D @craco/craco
 yarn add -D prettier craco-alias
+```
+
+**root 디렉토리에 craco.config.js 파일을 추가한다.**&#x20;
+
+```
+const CracoAlias = require('craco-alias')
+
+module.exports = {
+  plugins: [
+    {
+      plugin: CracoAlias,
+      options: {
+        source: 'tsconfig',
+        baseUrl: './src',
+        tsConfigPath: './tsconfig.paths.json',
+      },
+    },
+  ],
+}
+```
+
+**`package.json`** 파일에 **`scripts`**를 수정한다.&#x20;
+
+```
+"start": "craco start",
+"build": "craco build"
 ```
