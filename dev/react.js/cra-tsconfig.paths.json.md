@@ -59,3 +59,16 @@
   }
 }
 ```
+
+### Craco 설치하기
+
+```
+// Some code
+# Using npm
+npm install -D @craco/craco
+npm install -D craco-alias
+
+# Using yarn
+yarn add -D @craco/craco
+yarn add -D prettier craco-alias
+```
