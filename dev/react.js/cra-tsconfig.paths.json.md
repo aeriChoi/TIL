@@ -65,11 +65,11 @@
 ```
 // Some code
 # Using npm
-npm install -D @craco/craco
+npm install @craco/craco
 npm install -D craco-alias
 
 # Using yarn
-yarn add -D @craco/craco
+yarn add @craco/craco
 yarn add -D craco-alias
 ```
 
